@@ -1,0 +1,102 @@
+body {
+    background-image: url(img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.navbar-brand img {
+    width: 50px !important;
+}
+
+.navbar {
+    background-color: #36373a;
+}
+
+.active {
+    color: #dbd9d6 !important;
+    font-weight: bolder;
+    border-bottom: 2px solid #dbd9d6;
+}
+
+.navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container p img {
+    width: 14% !important;
+    float: left;
+    margin-right: 5px !important;
+}
+
+.jumbotron {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-bottom: 160px !important;
+    padding-top: 30px !important;
+}
+
+.jumbotron .container h1 {
+    margin-bottom: 16px;
+    border-bottom: 2px solid crimson;
+}
+
+.jumbotron .container p {
+    margin-top: 30px !important;
+}
+
+footer{
+   background-color: #424558;
+    height: 55px;
+    text-align: center;
+    color: #CCC;
+    border-radius: 5px 5px;
+}
+
+footer p {
+    padding: 18.5px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.size-g {
+    width: 200px;
+    height: 200px;
+}
+
+p.success {
+    background: #CF9;
+    border: 1px solid #060;
+    width: 500px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+}
+
+p.error {
+    background: #f88;
+    border: 1px solid #c00;
+    width: 500px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+footer#footer {
+    font-size: 0.8em;
+    text-align: center;
+    clear: both;
+    width: 100%
+}
+
